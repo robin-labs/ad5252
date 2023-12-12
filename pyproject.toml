@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ad5252"
+version = "0.1.0"
+description = ""
+authors = ["Ian Reynolds <idreyn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
