@@ -1,5 +1,3 @@
-from __future__ import division
-
 import smbus
 import time
 
@@ -33,4 +31,3 @@ class AD5252(object):
             CHANNEL_ADDRESSES[channel]
         ) * BYTE_TO_OHMS
 
-    

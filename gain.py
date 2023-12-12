@@ -2,8 +2,8 @@ import ad5252
 import click
 
 @click.command()
-@click.option("--write", default=None, help="Read both channels")
-@click.option("--read", is_flag=True, help="Write to one or both channels")
+@click.option("--write", default=None, help="Write to one or both channels")
+@click.option("--read", is_flag=True, help="Read from both channels")
 def main(write, read):
     ad = ad5252.AD5252()
     if write is not None:
